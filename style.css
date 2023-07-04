@@ -18,15 +18,14 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #e3e0ef;
-    padding: 0 10px;
+    background-color: rgb(228,242,254);
 }
 .color-container{
     width: 150px;
     height: 200px;
+    margin: 20px;
     background-color: white;
     border-radius: 5px;
-    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,6 +33,7 @@ body{
     gap: 10px;
     box-shadow: 0 10px 20px rgba(100,87,220,0.08);
     transition: transform 0.3s ease;
+
 }
 .color-container:active{
     transform: scale(0.95);
