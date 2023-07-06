@@ -81,7 +81,6 @@ body{
 @media screen and (max-width: 800px){
     .color-container{
         flex-basis: 120px;
-        margin: 15px;
     }
 }
 @media screen and (max-width: 640px){
@@ -93,14 +92,10 @@ body{
         height: 80px;
     }
 }
-
 @media screen and (max-width: 480px){
     .color-container{
         flex-basis: 120px;
         margin: 20px;
-    }
-    .color{
-        height: 80px;
     }
 }
 
